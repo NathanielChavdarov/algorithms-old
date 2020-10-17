@@ -13,21 +13,7 @@ answers = [
 ]
 
 
-def test_fibonacci0():
+def test_fibonacci():
     # The slow function
     for i, fib_i in answers:
-        assert f.fib0(i) == fib_i
-
-
-def test_fibonacci1():
-    # The slow function
-    for i, fib_i in answers:
-        assert f.fib1(i) == fib_i
-
-
-def test_fibonacci2():
-    # The quicker function
-    answers2 = answers
-    answers2.append((40, 102334155))
-    for i, fib_i in answers2:
-        assert f.fib2(i) == fib_i
+        assert f.fib(i) == fib_i
