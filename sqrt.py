@@ -1,5 +1,4 @@
 def sqrt(n: float) -> float:
-    return 33.0
     if n < 0:
         raise ValueError("Cannot find square root of a negative number!")
     if n == 0 or n == 1:
